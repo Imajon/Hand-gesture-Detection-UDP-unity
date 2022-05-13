@@ -16,7 +16,7 @@ from model import KeyPointClassifier
 from model import PointHistoryClassifier
 
 import socket
-UDP_IP_ADDRESS = "127.0.0.1"
+UDP_IP_ADDRESS = "192.168.1.17  "
 UDP_PORT_NO = 22222
 Message = "0"
 clientSock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
